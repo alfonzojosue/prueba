@@ -1,0 +1,59 @@
+
+body{
+    width: 100% vw;
+    height: 100% vh;
+    margin: 0;
+}
+main{
+    justify-content:  center;
+    align-content: center;
+    
+}
+.section-home {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    background: rgb(9, 20, 40);
+        background: linear-gradient(90deg, rgba(9, 20, 40, 1) 0%, rgba(0, 90, 130, 1) 100%);
+}
+
+.section-home--container {
+ display: flex;
+width: 100vw;
+    height: 100vh;
+}
+
+.container-img-jhin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-img-jhin img{
+   height: 40rem;
+   width: 50rem;
+   transition: all 300ms;
+    cursor: pointer;
+    
+   
+}
+.container-img-title{
+    display: flex;
+    justify-content: center;
+    margin-right: 4rem;
+    
+    
+   
+}
+.img-title {
+    width: 30 rem;
+    height: 15rem;
+    align-self: center;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
